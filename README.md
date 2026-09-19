@@ -37,6 +37,17 @@ graph LR
   * **Isolated Ground Pours:** Top and Bottom GND copper pours restricted to the DC secondary domain.
   * **Verification Status:** **0 ERC Errors, 0 DRC Errors, 0 Courtyard Overlaps, 0 Boundary Violations**.
 
+#### Visual Showcase & Design Views
+
+| Schematic (Annotated Sections) | 2D PCB Layout (HV/LV Split & GND Pour) |
+| :---: | :---: |
+| ![Schematic](docs/images/AC_DC_converter_with_regulated_dc/schematic.png) | ![2D PCB Layout](docs/images/AC_DC_converter_with_regulated_dc/pcb_layout_2d.png) |
+
+<p align="center">
+  <b>3D Board Assembly Render</b><br>
+  <img src="docs/images/AC_DC_converter_with_regulated_dc/pcb_render_3d.png" width="75%" alt="3D Board Assembly Render" />
+</p>
+
 ---
 
 ## 🛠️ Automated Tools & Pipeline Frameworks
