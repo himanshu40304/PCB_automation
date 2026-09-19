@@ -70,6 +70,30 @@ graph LR
   <img src="docs/images/AC_DC_converter_with_regulated_dc/pcb_render_3d.png" width="75%" alt="3D Board Assembly Render" />
 </p>
 
+### 3. `projects/Binary_Counter_8Bit`
+* **Description:** An autonomous 8-Bit Binary Counter circuit ($0 - 255$) featuring an NE555 timer clock generator, 74HC590 8-bit binary counter, 8-LED binary readout bar, speed trimpot, and USB power.
+* **Key Features:**
+  * **USB-B Micro 5V Input:** Over-current fuse protection (`F1`), Schottky reverse diode (`D1`), and SMAJ5.0A TVS protection (`D2`).
+  * **NE555 Precision Clock Generator:** Astable timer circuit with adjustable speed potentiometer (`RV1`) and clock pulse LED indicator (`D_CLK`).
+  * **74HC590 8-Bit Binary Counter & Register:** Direct driving of an 8-LED binary output array (`D3 - D10`) with dedicated current limiting resistors (`R3 - R10`).
+  * **Active Reset Circuit:** Tactile pushbutton (`SW_RST`) with pull-up resistor (`R_PULL_RST`).
+
+#### Visual Showcase & 3D Previews
+
+<p align="center">
+  <b>Schematic Diagram (Timer, Counter & Output Display)</b><br>
+  <img src="docs/images/Binary_Counter_8Bit/schematic.png" width="95%" alt="8-Bit Binary Counter Schematic" />
+</p>
+
+| 2D PCB Layout (Floorplan & Traces) | 2D PCB Layout (Copper & Pour View) |
+| :---: | :---: |
+| ![2D Layout Front](docs/images/Binary_Counter_8Bit/pcb_layout_front_2d.png) | ![2D Layout Copper](docs/images/Binary_Counter_8Bit/pcb_layout_copper_2d.png) |
+
+<p align="center">
+  <b>3D Board Assembly Render</b><br>
+  <img src="docs/images/Binary_Counter_8Bit/pcb_render_3d.png" width="80%" alt="8-Bit Binary Counter 3D Assembly" />
+</p>
+
 ---
 
 ## 🛠️ Automated Tools & Pipeline Frameworks
