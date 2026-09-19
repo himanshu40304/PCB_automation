@@ -1,0 +1,26 @@
+# KiCad temporary and backup files
+*-backups/
+*.kicad_prl
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+.mcp-backups/
+temp*
+*.tmp
+*temp_test*
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# OS specific files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Scratch scripts
+scratch/

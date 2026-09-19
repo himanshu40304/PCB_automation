@@ -1,0 +1,23 @@
+Comment,Designator,Footprint,LCSC Part #,Quantity
+100nF 275VAC,C1,Capacitor_THT:C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4,C14660,1
+470uF 16V,C2,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,C3314,1
+10uF,"C4, C8",Capacitor_SMD:C_0805_2012Metric,C15850,2
+22uF,C5,Capacitor_SMD:C_0805_2012Metric,C45783,1
+100nF,"C3, C6, C7, C9",Capacitor_SMD:C_0805_2012Metric,C49678,4
+SS34,D1,Diode_SMD:D_SMA,C8678,1
+SS34,D2,Diode_SMD:D_SMA,C8678,1
+1A 250V,F1,Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,C90938,1
+AC_IN (220V),J1,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",C8465,1
+SERVO_5V (PWM),J2,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,C22552,1
+USB_B_Micro,J_USB1,Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal,C404969,1
+GREEN (5V),LED1,LED_SMD:LED_0805_2012Metric,C2297,1
+BLUE (3.3V),LED2,LED_SMD:LED_0805_2012Metric,C2296,1
+1k,"R1, R2",Resistor_SMD:R_0805_2012Metric,C17513,2
+10k,"R3, R4",Resistor_SMD:R_0805_2012Metric,C17414,2
+5D-9,RT1,Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P5.00mm,C47474,1
+07D471K,RV1,Varistor:RV_Disc_D7mm_W4mm_P5mm,C21727,1
+RESET,SW1,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,C318884,1
+BOOT,SW2,Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK,C318884,1
+HLK-5M05,U1,Converter_ACDC:Converter_ACDC_Hi-Link_HLK-5Mxx,C209825,1
+AMS1117-3.3,U2,Package_TO_SOT_SMD:SOT-223-3_TabPin2,C6186,1
+ESP32-C3-WROOM-02-N4,U3,RF_Module:ESP32-C3-WROOM-02,C2934560,1

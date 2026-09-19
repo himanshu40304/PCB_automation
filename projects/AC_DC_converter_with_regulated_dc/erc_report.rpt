@@ -1,0 +1,81 @@
+ERC report (2026-09-19T15:31:46, Encoding UTF8)
+Report includes: Errors, Warnings, Exclusions
+
+***** Sheet /
+[lib_symbol_mismatch]: Symbol 'Screw_Terminal_01x02' doesn't match copy in library 'Connector'
+    ; warning
+    @(30.48 mm, 59.69 mm): Symbol J1 [Screw_Terminal_01x02]
+[lib_symbol_mismatch]: Symbol 'MountingHole' doesn't match copy in library 'Mechanical'
+    ; warning
+    @(39.37 mm, 119.38 mm): Symbol H1 [MountingHole]
+[lib_symbol_mismatch]: Symbol 'Fuse' doesn't match copy in library 'Device'
+    ; warning
+    @(49.53 mm, 49.53 mm): Symbol F1 [Fuse]
+[lib_symbol_mismatch]: Symbol 'Varistor' doesn't match copy in library 'Device'
+    ; warning
+    @(59.69 mm, 69.85 mm): Symbol RV_MOV1 [Varistor]
+[lib_symbol_mismatch]: Symbol 'D' doesn't match copy in library 'Device'
+    ; warning
+    @(80.01 mm, 49.53 mm): Symbol D1 [D]
+[lib_symbol_mismatch]: Symbol 'D' doesn't match copy in library 'Device'
+    ; warning
+    @(80.01 mm, 64.77 mm): Symbol D2 [D]
+[lib_symbol_mismatch]: Symbol 'D' doesn't match copy in library 'Device'
+    ; warning
+    @(95.25 mm, 49.53 mm): Symbol D3 [D]
+[lib_symbol_mismatch]: Symbol 'D' doesn't match copy in library 'Device'
+    ; warning
+    @(95.25 mm, 64.77 mm): Symbol D4 [D]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(95.25 mm, 80.01 mm): Symbol #PWR01 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'PWR_FLAG' doesn't match copy in library 'power'
+    ; warning
+    @(110.49 mm, 45.72 mm): Symbol #PWR02 [PWR_FLAG]
+[lib_symbol_mismatch]: Symbol 'C_Polarized' doesn't match copy in library 'Device'
+    ; warning
+    @(110.49 mm, 69.85 mm): Symbol C1 [C_Polarized]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(121.92 mm, 69.85 mm): Symbol C2 [C]
+[lib_symbol_mismatch]: Symbol 'D' doesn't match copy in library 'Device'
+    ; warning
+    @(144.78 mm, 39.37 mm): Symbol D5 [D]
+[lib_symbol_mismatch]: Symbol 'C_Polarized' doesn't match copy in library 'Device'
+    ; warning
+    @(154.94 mm, 95.25 mm): Symbol C3 [C_Polarized]
+[lib_symbol_mismatch]: Symbol 'D' doesn't match copy in library 'Device'
+    ; warning
+    @(162.56 mm, 49.53 mm): Symbol D6 [D]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(165.10 mm, 74.93 mm): Symbol R1 [R]
+[lib_symbol_mismatch]: Symbol 'R_Potentiometer' doesn't match copy in library 'Device'
+    ; warning
+    @(175.26 mm, 95.25 mm): Symbol RV1 [R_Potentiometer]
+[lib_symbol_mismatch]: Symbol 'C_Polarized' doesn't match copy in library 'Device'
+    ; warning
+    @(195.58 mm, 69.85 mm): Symbol C4 [C_Polarized]
+[lib_symbol_mismatch]: Symbol 'C' doesn't match copy in library 'Device'
+    ; warning
+    @(204.47 mm, 69.85 mm): Symbol C5 [C]
+[lib_symbol_mismatch]: Symbol 'R' doesn't match copy in library 'Device'
+    ; warning
+    @(219.71 mm, 59.69 mm): Symbol R2 [R]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(219.71 mm, 80.01 mm): Symbol D7 [LED]
+[lib_symbol_mismatch]: Symbol 'MountingHole' doesn't match copy in library 'Mechanical'
+    ; warning
+    @(219.71 mm, 119.38 mm): Symbol H2 [MountingHole]
+[lib_symbol_mismatch]: Symbol 'Screw_Terminal_01x02' doesn't match copy in library 'Connector'
+    ; warning
+    @(240.03 mm, 64.77 mm): Symbol J2 [Screw_Terminal_01x02]
+
+ ** ERC messages: 23  Errors 0  Warnings 23
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

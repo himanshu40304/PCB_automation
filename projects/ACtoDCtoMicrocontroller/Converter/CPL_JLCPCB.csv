@@ -1,0 +1,29 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF 275VAC,C_Rect_L13.0mm_W5.0mm_P10.00mm_FKS3_FKP3_MKS4,22.0mm,10.075mm,90.0,Top
+C2,470uF 16V,CP_Radial_D8.0mm_P3.50mm,72.0mm,5.5mm,0.0,Top
+C3,100nF,C_0805_2012Metric,70.0mm,13.0mm,-90.0,Top
+C4,10uF,C_0805_2012Metric,76.0mm,12.0mm,-90.0,Top
+C5,22uF,C_0805_2012Metric,90.375mm,9.675mm,90.0,Top
+C6,100nF,C_0805_2012Metric,90.375mm,5.15mm,90.0,Top
+C7,100nF,C_0805_2012Metric,80.2125mm,2.3mm,0.0,Bottom
+C8,10uF,C_0805_2012Metric,73.025mm,12.85mm,90.0,Bottom
+C9,100nF,C_0805_2012Metric,73.025mm,8.975mm,90.0,Bottom
+D1,SS34,D_SMA,78.0mm,18.5mm,0.0,Top
+D2,SS34,D_SMA,75.25mm,17.35mm,180.0,Bottom
+F1,1A 250V,Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open,13.35mm,28.1mm,-90.0,Bottom
+J1,AC_IN (220V),"TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal",5.7mm,24.635mm,-90.0,Top
+J2,SERVO_5V (PWM),PinHeader_1x03_P2.54mm_Vertical,73.97mm,27.775mm,-90.0,Bottom
+J_USB1,USB_B_Micro,USB_Micro-B_Amphenol_10118193-0001LF_Horizontal,87.45mm,28.445mm,0.0,Bottom
+LED1,GREEN (5V),LED_0805_2012Metric,70.0mm,24.5mm,-90.0,Top
+LED2,BLUE (3.3V),LED_0805_2012Metric,90.475mm,18.2625mm,-90.0,Top
+R1,1k,R_0805_2012Metric,70.0mm,19.0mm,90.0,Top
+R2,1k,R_0805_2012Metric,90.35mm,14.0625mm,90.0,Top
+R3,10k,R_0805_2012Metric,80.2125mm,5.3mm,0.0,Bottom
+R4,10k,R_0805_2012Metric,83.1125mm,18.5mm,0.0,Bottom
+RT1,5D-9,C_Disc_D9.0mm_W5.0mm_P5.00mm,18.375mm,3.075mm,0.0,Top
+RV1,07D471K,RV_Disc_D7mm_W4mm_P5mm,20.825mm,28.35mm,-90.0,Bottom
+SW1,RESET,SW_Push_SPST_NO_Alps_SKRK,83.125mm,8.875mm,0.0,Bottom
+SW2,BOOT,SW_Push_SPST_NO_Alps_SKRK,83.125mm,14.875mm,0.0,Bottom
+U1,HLK-5M05,Converter_ACDC_Hi-Link_HLK-5Mxx,29.7775mm,17.0mm,0.0,Top
+U2,AMS1117-3.3,SOT-223-3_TabPin2,83.5mm,12.0mm,0.0,Top
+U3,ESP32-C3-WROOM-02,ESP32-C3-WROOM-02,93.275mm,10.865mm,90.0,Bottom
