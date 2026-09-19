@@ -2,6 +2,10 @@
 
 An autonomous, end-to-end PCB design, verification, and manufacturing pipeline powered by **KiCad**, **SPICE**, and **AI-driven Automation Agents**.
 
+<p align="center">
+  <img src="docs/images/pipeline_workflow_infographic.png" width="100%" alt="Autonomous AI PCB Design and Verification Pipeline" />
+</p>
+
 ---
 
 ## 🚀 Overview & Automation Architecture
