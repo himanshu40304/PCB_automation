@@ -33,6 +33,11 @@ graph LR
 
 #### Visual Showcase & 3D Previews
 
+<p align="center">
+  <b>Schematic Diagram (Annotated Subsystems)</b><br>
+  <img src="docs/images/ACtoDCtoMicrocontroller/schematic.png" width="95%" alt="ACtoDCtoMicrocontroller Schematic" />
+</p>
+
 | Top Layer Layout (HV Isolation & 5V Fill) | Bottom Layer Layout (3.3V & Signal Routing) |
 | :---: | :---: |
 | ![Top Layout](docs/images/ACtoDCtoMicrocontroller/pcb_layout_front_2d.png) | ![Bottom Layout](docs/images/ACtoDCtoMicrocontroller/pcb_layout_back_2d.png) |
