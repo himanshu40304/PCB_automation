@@ -24,9 +24,22 @@ graph LR
 ## 📂 Projects in this Repository
 
 ### 1. `projects/ACtoDCtoMicrocontroller`
-* **Description:** An integrated power conversion and microcontroller subsystem converting mains AC to regulated DC logic levels to power an embedded MCU.
-* **Key Features:** Full-wave bridge rectification, linear regulation stage, MCU decoupling, and GPIO breakout.
-* **Artifacts:** Complete `.kicad_sch`, `.kicad_pcb`, interactive SVGs, BOM, and CPL files.
+* **Description:** An integrated compact IoT board converting mains AC to regulated 5V & 3.3V DC to power an ESP32/Microcontroller with USB programming, switches, and antenna keepout.
+* **Key Features:**
+  * **Mains AC Input Stage:** Screw terminal (`J1`), NTC inrush limiter (`RT1`), X-Capacitor (`C1`), and HLK-5M05 isolated AC-DC module.
+  * **Microcontroller & Logic Domain:** 3.3V LDO regulator, ESP32 module, reset & boot switches, Micro-USB interface, and dedicated RF Antenna Keep-Out Zone.
+  * **Physical Isolation:** Strict primary-to-secondary dielectric isolation barrier.
+  * **Artifacts:** Complete `.kicad_sch`, `.kicad_pcb`, interactive SVGs, manufacturing BOM, and CPL files.
+
+#### Visual Showcase & 3D Previews
+
+| Top Layer Layout (HV Isolation & 5V Fill) | Bottom Layer Layout (3.3V & Signal Routing) |
+| :---: | :---: |
+| ![Top Layout](docs/images/ACtoDCtoMicrocontroller/pcb_layout_front_2d.png) | ![Bottom Layout](docs/images/ACtoDCtoMicrocontroller/pcb_layout_back_2d.png) |
+
+| Top 3D Assembly (HLK Module & AC Protection) | Bottom 3D Assembly (MCU, Buttons, USB) |
+| :---: | :---: |
+| ![Top 3D Render](docs/images/ACtoDCtoMicrocontroller/pcb_render_top_3d.png) | ![Bottom 3D Render](docs/images/ACtoDCtoMicrocontroller/pcb_render_bottom_3d.png) |
 
 ### 2. `projects/AC_DC_converter_with_regulated_dc`
 * **Description:** A **$60\text{ mm} \times 50\text{ mm}$** AC-to-DC Adjustable Regulated Power Supply using a Full-Wave Bridge Rectifier and LM317.
