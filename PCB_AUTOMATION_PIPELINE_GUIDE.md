@@ -106,12 +106,3 @@ Because all three MCP servers run **locally on your machine** and interact with 
 | Gerbers | KiCad `File -> Fabrication Outputs -> Gerbers / Drill Files` |
 
 ---
-
-## 6. Pre-Flight Checklist Before Starting Client Work
-
-1. [ ] **Verify Server Health:** Ensure `get_backend_state` (kicad), `search_symbols` (validate), and `list_templates` (spice) respond.
-2. [ ] **SPICE Verification First:** Never finalize passive values for active filters, power stages, or sensor conditioning without running SPICE analysis first.
-3. [ ] **Define Netclasses & Clearances:** Set minimum trace widths, power trace widths, and clearances matching your manufacturer's design capabilities (e.g., 5 mil trace/space for standard JLCPCB).
-4. [ ] **Lock Mechanical Connectors:** Place mounting holes, USB/power ports, and board edges first before placing ICs.
-5. [ ] **Never Skip Human Visual Check:** After automated routing or placement, inspect the 3D viewer in KiCad (`Alt + 3`) to verify component heights, silkscreen legibility, and connector orientations.
-6. [ ] **Clean DRC = Green Light:** Resolve 100% of DRC errors and unrouted net warnings before generating Gerbers.
