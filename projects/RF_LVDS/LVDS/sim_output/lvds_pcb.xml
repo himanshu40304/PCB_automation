@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<ContinuousStructure CoordSystem="0">
+    <RectilinearGrid DeltaUnit="0.001" CoordSystem="0">
+        <XLines Qty="27">-5,-4.41956388718459,-3.83912777436919,-3.25869166155378,-2.67825554873837,-2.09781943592296,-1.51738332310755,-1.07749500710995,-0.744122003123983,-0.49147251063955,-0.3,-0.15,-0.075,0,0.075,0.15,0.3,0.49147251063955,0.744122003123983,1.07749500710995,1.51738332310755,2.09781943592296,2.67825554873837,3.25869166155378,3.83912777436919,4.41956388718459,5</XLines>
+        <YLines Qty="73">0,0.6,1.2,1.8,2.1,2.4,2.65,3,3.45140007037527,4.0424214964333,4.63344292249133,5.22446434854935,5.81548577460738,6.40650720066541,6.99752862672343,7.58855005278146,8.17957147883948,8.77059290489751,9.36161433095553,9.95263575701356,10.5436571830716,11.1346786091296,11.7257000351876,12.3167214612457,12.9077428873037,13.4987643133617,14.0897857394197,14.6808071654778,15.2718285915358,15.8628500175938,16.4538714436518,17.0448928697099,17.6359142957679,18.2269357218259,18.8179571478839,19.408978573942,20,20.591021426058,21.1820428521161,21.7730642781741,22.3640857042321,22.9551071302901,23.5461285563482,24.1371499824062,24.7281714084642,25.3191928345222,25.9102142605803,26.5012356866383,27.0922571126963,27.6832785387543,28.2742999648124,28.8653213908704,29.4563428169284,30.0473642429864,30.6383856690445,31.2294070951025,31.8204285211605,32.4114499472185,33.0024713732766,33.5934927993346,34.1845142253926,34.7755356514506,35.3665570775087,35.9575785035667,36.5485999296247,37,37.35,37.6,37.9,38.2,38.8,39.4,40</YLines>
+        <ZLines Qty="4">0,0.1,0.135,0.6</ZLines>
+    </RectilinearGrid>
+    <BackgroundMaterial Epsilon="1" Mue="1" Kappa="0" Sigma="0" />
+    <ParameterSet />
+    <Properties>
+        <Material ID="0" Name="FR4" Isotropy="1">
+            <FillColor R="103" G="198" B="105" a="123" />
+            <EdgeColor R="103" G="198" B="105" a="123" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="-5.000000e+00" Y="0.000000e+00" Z="0.000000e+00" />
+                    <P2 X="5.000000e+00" Y="4.000000e+01" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+            <Property Epsilon="4.400000e+00,1.000000e+00,1.000000e+00" Mue="1.000000e+00,1.000000e+00,1.000000e+00" Kappa="4.895556e-03,0.000000e+00,0.000000e+00" Sigma="0.000000e+00,0.000000e+00,0.000000e+00" Density="0.000000e+00" />
+            <Weight Epsilon="1.000000e+00,1.000000e+00,1.000000e+00" Mue="1.000000e+00,1.000000e+00,1.000000e+00" Kappa="1.000000e+00,1.000000e+00,1.000000e+00" Sigma="1.000000e+00,1.000000e+00,1.000000e+00" Density="1.000000e+00" />
+        </Material>
+        <Metal ID="1" Name="GND_PLANE">
+            <FillColor R="115" G="81" B="255" a="255" />
+            <EdgeColor R="115" G="81" B="255" a="255" />
+            <Primitives>
+                <Box Priority="10">
+                    <P1 X="-5.000000e+00" Y="0.000000e+00" Z="0.000000e+00" />
+                    <P2 X="5.000000e+00" Y="4.000000e+01" Z="0.000000e+00" />
+                </Box>
+            </Primitives>
+        </Metal>
+        <Metal ID="2" Name="LVDS_P">
+            <FillColor R="74" G="236" B="41" a="255" />
+            <EdgeColor R="74" G="236" B="41" a="255" />
+            <Primitives>
+                <Box Priority="10">
+                    <P1 X="7.500000e-02" Y="3.000000e+00" Z="1.000000e-01" />
+                    <P2 X="2.250000e-01" Y="3.700000e+01" Z="1.350000e-01" />
+                </Box>
+            </Primitives>
+        </Metal>
+        <Metal ID="3" Name="LVDS_N">
+            <FillColor R="205" G="186" B="171" a="255" />
+            <EdgeColor R="205" G="186" B="171" a="255" />
+            <Primitives>
+                <Box Priority="10">
+                    <P1 X="-2.250000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                    <P2 X="-7.500000e-02" Y="3.700000e+01" Z="1.350000e-01" />
+                </Box>
+            </Primitives>
+        </Metal>
+        <LumpedElement ID="4" Name="port_resist_1" Direction="0" Caps="1" R="1.000000e+02" LEtype="0.000000e+00">
+            <FillColor R="242" G="251" B="227" a="255" />
+            <EdgeColor R="242" G="251" B="227" a="255" />
+            <Primitives>
+                <Box Priority="5">
+                    <P1 X="-1.500000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                    <P2 X="1.500000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+        </LumpedElement>
+        <Excitation ID="5" Name="port_excite_1" Number="0" Enabled="1" Frequency="0.000000e+00" Delay="0.000000e+00" Type="0" Excite="-1.000000e+00,0.000000e+00,0.000000e+00" PropDir="0.000000e+00,0.000000e+00,0.000000e+00">
+            <FillColor R="70" G="124" B="194" a="255" />
+            <EdgeColor R="70" G="124" B="194" a="255" />
+            <Primitives>
+                <Box Priority="5">
+                    <P1 X="-1.500000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                    <P2 X="1.500000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+            <Weight X="1.000000e+00" Y="1.000000e+00" Z="1.000000e+00" />
+        </Excitation>
+        <ProbeBox ID="6" Name="port_ut_1" Visible="0" Number="0" Type="0" Weight="-1" NormDir="-1" StartTime="0" StopTime="0">
+            <FillColor R="84" G="248" B="27" a="255" />
+            <EdgeColor R="84" G="248" B="27" a="255" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="-1.500000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                    <P2 X="1.500000e-01" Y="3.000000e+00" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+        </ProbeBox>
+        <ProbeBox ID="7" Name="port_it_1" Visible="0" Number="0" Type="1" Weight="1" NormDir="0" StartTime="0" StopTime="0">
+            <FillColor R="232" G="231" B="141" a="255" />
+            <EdgeColor R="232" G="231" B="141" a="255" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="0.000000e+00" Y="3.000000e+00" Z="1.000000e-01" />
+                    <P2 X="0.000000e+00" Y="3.000000e+00" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+        </ProbeBox>
+        <LumpedElement ID="8" Name="port_resist_2" Direction="0" Caps="1" R="1.100000e+02" LEtype="0.000000e+00">
+            <FillColor R="118" G="90" B="46" a="255" />
+            <EdgeColor R="118" G="90" B="46" a="255" />
+            <Primitives>
+                <Box Priority="5">
+                    <P1 X="-1.500000e-01" Y="3.700000e+01" Z="1.000000e-01" />
+                    <P2 X="1.500000e-01" Y="3.700000e+01" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+        </LumpedElement>
+        <ProbeBox ID="9" Name="port_ut_2" Visible="0" Number="0" Type="0" Weight="-1" NormDir="-1" StartTime="0" StopTime="0">
+            <FillColor R="99" G="51" B="159" a="255" />
+            <EdgeColor R="99" G="51" B="159" a="255" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="-1.500000e-01" Y="3.700000e+01" Z="1.000000e-01" />
+                    <P2 X="1.500000e-01" Y="3.700000e+01" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+        </ProbeBox>
+        <ProbeBox ID="10" Name="port_it_2" Visible="0" Number="0" Type="1" Weight="1" NormDir="0" StartTime="0" StopTime="0">
+            <FillColor R="201" G="154" B="102" a="255" />
+            <EdgeColor R="201" G="154" B="102" a="255" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="0.000000e+00" Y="3.700000e+01" Z="1.000000e-01" />
+                    <P2 X="0.000000e+00" Y="3.700000e+01" Z="1.000000e-01" />
+                </Box>
+            </Primitives>
+        </ProbeBox>
+        <DumpBox ID="11" Name="Et_paraview" Visible="0" Number="0" Type="0" Weight="1" NormDir="-1" StartTime="0" StopTime="0" DumpType="0" DumpMode="0" FileType="0" MultiGridLevel="0">
+            <FillColor R="50" G="13" B="183" a="255" />
+            <EdgeColor R="50" G="13" B="183" a="255" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="-5.000000e+00" Y="0.000000e+00" Z="0.000000e+00" />
+                    <P2 X="5.000000e+00" Y="4.000000e+01" Z="6.000000e-01" />
+                </Box>
+            </Primitives>
+        </DumpBox>
+        <DumpBox ID="12" Name="Jt_current" Visible="0" Number="0" Type="0" Weight="1" NormDir="-1" StartTime="0" StopTime="0" DumpType="2" DumpMode="0" FileType="0" MultiGridLevel="0">
+            <FillColor R="49" G="88" B="163" a="255" />
+            <EdgeColor R="49" G="88" B="163" a="255" />
+            <Primitives>
+                <Box Priority="0">
+                    <P1 X="-5.000000e+00" Y="0.000000e+00" Z="0.000000e+00" />
+                    <P2 X="5.000000e+00" Y="4.000000e+01" Z="1.450000e-01" />
+                </Box>
+            </Primitives>
+        </DumpBox>
+    </Properties>
+</ContinuousStructure>

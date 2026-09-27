@@ -1,0 +1,82 @@
+** Drc report for LVDS.kicad_pcb **
+** Created on 2026-09-27T11:41:37 **
+** Report includes: Errors **
+
+** Found 16 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 150.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 150.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 150.0000 mm): Track [GND] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 150.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 150.0000 mm): Track [GND] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 150.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 70.0000 mm
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

@@ -1,0 +1,59 @@
+board:
+  name: board
+  outline: POLYGON ((24.809651 0, 24.809651 22.668911, 0 22.668911, 0 0, 24.809651
+    0))
+frequency: 10.0 GHz
+name: x_band_patch
+nets:
+- kind: rf
+  name: antenna/feed
+- kind: ground
+  name: gnd
+parameters:
+  center_frequency: 10.0 GHz
+  edge_resistance_ohm: 291.5035034780531
+  eps_eff: 3.374697753293875
+  feed_width: 1.1120102238061023 mm
+  inset_depth: 2.1307054476073537 mm
+  inset_gap: 0.5560051119030511 mm
+  patch_length: 7.679288535729216 mm
+  patch_width: 9.820028466961448 mm
+  substrate: RO4350B
+ports:
+- layer: top
+  name: p1
+  net: antenna/feed
+  position:
+  - 12.404825683480723
+  - 0.0
+  reference_layer: bottom
+  z0: 50.0 Ω
+shapes:
+- layer: top
+  net: antenna/feed
+  polygon: POLYGON ((12.960831 0, 12.960831 9.625517, 13.516836 9.625517, 13.516836
+    7.494811, 17.31484 7.494811, 17.31484 15.1741, 7.494811 15.1741, 7.494811 7.494811,
+    11.292815 7.494811, 11.292815 9.625517, 11.848821 9.625517, 11.848821 0, 12.960831
+    0))
+  role: radiator
+- layer: bottom
+  net: gnd
+  polygon: POLYGON ((24.809651 0, 24.809651 22.668911, 0 22.668911, 0 0, 24.809651
+    0))
+  role: ground
+stackup:
+  layers:
+  - kind: copper
+    name: top
+    thickness: 0.035 mm
+  - kind: dielectric
+    material:
+      eps_r: 3.66
+      name: RO4350B
+      tan_delta: 0.0037
+    name: core
+    thickness: 0.508 mm
+  - kind: copper
+    name: bottom
+    thickness: 0.035 mm
+vias: []

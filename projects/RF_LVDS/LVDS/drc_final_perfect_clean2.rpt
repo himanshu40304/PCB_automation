@@ -1,0 +1,326 @@
+** Drc report for LVDS.kicad_pcb **
+** Created on 2026-09-27T11:27:02 **
+** Report includes: Errors **
+
+** Found 12 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation
+    Rule: Edge Plating Copper Allowance; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [GND] on B.Cu, length 70.0000 mm
+
+** Found 65 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 56.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 52.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 59.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 56.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 63.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 66.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 70.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 66.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 73.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 34.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 73.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 70.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 34.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 80.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 84.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 80.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 84.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 87.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 87.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 91.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 91.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 94.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.8000 mm, 52.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(100.0000 mm, 100.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(106.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(101.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(106.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(113.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(111.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(111.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(113.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(116.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(120.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(116.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(123.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(121.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(120.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(121.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(127.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(123.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(127.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(131.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 24.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(130.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 24.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(136.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(137.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 24.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 24.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(137.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(141.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(141.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(146.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(144.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(146.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(148.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(155.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(151.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(158.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(155.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(156.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(158.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(162.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(161.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(162.0000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+    @(165.5000 mm, 50.8000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(165.5000 mm, 99.2000 mm): Via [GND] on F.Cu - B.Cu
+    @(166.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 56.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 52.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 59.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 56.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 63.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 66.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 66.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 70.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 73.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 34.2000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 73.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 70.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.0000 mm, 75.0000 mm): Track [GND] on F.Cu, length 34.2000 mm
+    @(169.2000 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 80.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 77.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 84.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 80.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 87.5000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 84.0000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 91.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 94.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 91.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(169.2000 mm, 87.5000 mm): Via [GND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.0000 mm, 50.0000 mm): Track [GND] on F.Cu, length 50.0000 mm
+    @(169.2000 mm, 52.5000 mm): Via [GND] on F.Cu - B.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

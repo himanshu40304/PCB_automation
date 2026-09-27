@@ -36,7 +36,9 @@
 
 ---
 
-### Stage 5: Design Rule Check (DRC) & Output Generation
+### Stage 5: Design Rule Check (DRC), Full-Wave EM Validation & Output Generation
 1. **Design Rule Check (DRC):** Run DRC and resolve all clearance, track width, and unrouted net violations.
-2. **Inspection:** Generate 2D/3D views for mechanical fit check.
-3. **Manufacturing Outputs:** Export Gerbers, drill files, IPC-D-356, BOM, and pick-and-place (POS) files.
+2. **Mandatory RF/Antenna Full-Wave Verification Gate:**
+   > **Rule:** For any RF/antenna project, run an OpenEMS simulation on the completed RF signal path via the `openems-sim` server before final sign-off. Report $S_{11}$, $S_{21}$, and radiation pattern against the target spec. Do **not** treat DRC-clean as sufficient for RF sign-off.
+3. **Inspection:** Generate 2D/3D views for mechanical fit check.
+4. **Manufacturing Outputs:** Export Gerbers, drill files, IPC-D-356, BOM, and pick-and-place (POS) files.

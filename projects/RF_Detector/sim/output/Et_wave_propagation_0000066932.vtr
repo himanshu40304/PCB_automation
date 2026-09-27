@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<VTKFile type="RectilinearGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
+  <RectilinearGrid WholeExtent="0 6 0 3 0 3">
+  <Piece Extent="0 6 0 3 0 3">
+    <PointData>
+      <DataArray type="Float32" Name="E-Field" NumberOfComponents="3" format="binary" RangeMin="0" RangeMax="125.22953628919149">
+        AQAAAACAAABABQAA1QIAAA==eJxjYEAFb7qV98DYkvEnd8LYO7bPMIWxF6xpMYOxb1w9bcqABtaoCO2FsQW67hwA0dIzfx5asCrJ+vF5x12zb+vsFrOYsG1duud2v/ibFg0/hc0t37lsO2D+xXxtwyKw2Qkzvm5DNjNklTDczMq+OweUVH8cAJl5PD3VOnf3QutXV3V39yh/2nYoo8Hcn++Mxb6jguYSG2ea7cx8bK58aPvWolOvty2S492ObKbwlte74Rzd5zanKgxsWD6o7NVp0bbKWrzU0shWwlLzjvQWk7iAbV51xyy4dNq2Fb4INf3d+9Y8f7XstrkhkVvrjjKhmIkONjBvgofnz6Ab8PBcPMsK7j/1VV3wMIxb8nYruhmui7fB/X51zXcHEN3svMMxXqLM+tFE913ydjesJP4tNW88KmB+veiV5dq1a7YxfDxgZvaUydJxlYk5SH3j/jALZDNj67fDzWRf8d2hlonbUW7ndsdHeWXWW8LWWk/iumllarTR7Jz+ZPMDco8sr6ve3XpqdbkZ14dvFobTlppnzmfZnvXSB8XMbsfP8PBMWspma2TubrNyesDexXsNrWqDd1u6O0tZC55ZbVaS9cDMVPim5fzgELM23vVmsxQYLHO6hEzcN9WbLrbNQDETHcwsOQsPzzc8VxHps8IZHp6v03vh4dliJoqSjkBgctI1uN8Djj13EFx+cJ+bWbNj//9S63eLXHa9926y+bZ3u3n3KwfzS3NfWlpob912PTbE7Hofk2X0IknzxVpfTDa+CUT1u9N1uJnnzzx3kG5mdNxr0+xYrlFmzdG/zrrjXZPNs7Ig86uH9M2P/3xu+fur+baDB/+ZCcd9tPjEs8DccPOnba+3eKOYOWXve3h4Pl7LbZvO72PzdsNZ23eb9K3cBXdals+tsw5c0md2konN/MWl25ZX4mTM5ldMM0uyZ7D8Hrzb9Mimk6aXHqfjDc9RQBkAAE/KLcU=
+        <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
+          <Value index="0">
+            0
+          </Value>
+          <Value index="1">
+            125.22953629
+          </Value>
+        </InformationKey>
+      </DataArray>
+    </PointData>
+    <CellData>
+    </CellData>
+    <Coordinates>
+      <DataArray type="Float64" Name="Array 0x34bc1b20" format="binary" RangeMin="-0.002" RangeMax="0.032">
+        AQAAAACAAAA4AAAANwAAAA==eJz7s/LjJd+khP1/ILT9CiFTX2m9CvtZM0Gg0/5DiM8xob7J9lEp1vf9e6fbQ9QtsAcAUAsc0A==
+      </DataArray>
+      <DataArray type="Float64" Name="Array 0x34bc1d00" format="binary" RangeMin="-0.008" RangeMax="0.0019399999999999999">
+        AQAAAACAAAAgAAAAIwAAAA==eJz7s/LjJd+khv3zePomhT/XgNH2PKsrlD+fiLcHACVQEGA=
+      </DataArray>
+      <DataArray type="Float64" Name="Array 0x34bc1f00" format="binary" RangeMin="-0.0002" RangeMax="0.0008">
+        AQAAAACAAAAgAAAAIAAAAA==eJzTdZZ5/chMaz8DFFz+fez6vEgme12wuJc9AK28CzQ=
+      </DataArray>
+    </Coordinates>
+  </Piece>
+  </RectilinearGrid>
+</VTKFile>

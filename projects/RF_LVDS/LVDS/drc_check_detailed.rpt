@@ -1,0 +1,2022 @@
+** Drc report for LVDS.kicad_pcb **
+** Created on 2026-09-27T11:20:40 **
+** Report includes: Errors, Warnings **
+
+** Found 451 DRC violations **
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(135.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+    @(99.0750 mm, 99.1750 mm): Zone [GND] on B.Cu, priority 3
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+    @(99.0750 mm, 99.1750 mm): Zone [GND] on B.Cu, priority 3
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(133.1750 mm, 115.0500 mm): Via [3V3] on F.Cu - B.Cu
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(133.1750 mm, 115.0500 mm): Via [3V3] on F.Cu - B.Cu
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(133.1750 mm, 115.0500 mm): Via [3V3] on F.Cu - B.Cu
+    @(99.0750 mm, 99.1750 mm): Zone [GND] on B.Cu, priority 3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(133.1750 mm, 115.0500 mm): Via [3V3] on F.Cu - B.Cu
+    @(99.0750 mm, 99.1750 mm): Zone [GND] on B.Cu, priority 3
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(134.3750 mm, 112.0500 mm): Track [3V3] on F.Cu, length 3.0000 mm
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(134.3750 mm, 115.0500 mm): Track [3V3] on F.Cu, length 1.2000 mm
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(133.1750 mm, 115.0500 mm): Via [3V3] on F.Cu - B.Cu
+    @(99.4500 mm, 99.6000 mm): Zone [GND] on In1.Cu, priority 0
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(133.1750 mm, 115.0500 mm): Via [3V3] on F.Cu - B.Cu
+    @(99.4500 mm, 99.6000 mm): Zone [GND] on In1.Cu, priority 0
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(160.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(160.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(165.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(155.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(160.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(160.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(165.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(130.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 70.0000 mm
+    @(99.0750 mm, 99.1750 mm): Zone [GND] on B.Cu, priority 3
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(130.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(155.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(105.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(130.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(105.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(130.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(120.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(160.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(120.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(160.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0102 mm)
+    Local override; error
+    @(136.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(125.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(130.5000 mm, 121.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1602 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(165.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(130.5000 mm, 121.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(165.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(130.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(130.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.5000 mm, 121.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(130.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(155.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(165.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(165.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(130.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(110.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(155.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(110.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(135.5000 mm, 121.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(135.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(155.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(125.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(155.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(115.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(120.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(115.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(120.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(155.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(155.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(110.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 121.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(125.5000 mm, 121.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(110.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(110.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(115.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(110.1250 mm, 115.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(115.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(115.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(115.5000 mm, 116.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(160.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(160.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(165.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(110.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(165.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(121.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(110.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(121.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(115.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(120.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(115.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(125.5000 mm, 131.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(120.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(105.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(125.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(105.1250 mm, 125.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(125.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(126.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(120.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(166.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(120.5000 mm, 111.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 141.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(166.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(136.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 126.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(151.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(101.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(146.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(106.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(126.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(116.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(141.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(116.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(101.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(141.4500 mm, 111.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(151.4500 mm, 101.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(105.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 146.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(135.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(136.4500 mm, 131.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(105.1250 mm, 110.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(111.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(161.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(105.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(135.5000 mm, 126.0000 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(156.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(106.4500 mm, 121.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(131.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(111.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(105.1250 mm, 130.3650 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(161.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(131.4500 mm, 116.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(156.4500 mm, 136.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(99.3750 mm, 99.5250 mm): Zone [3V3] on In2.Cu, priority 1
+[clearance]: Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)
+    Local override; error
+    @(134.3750 mm, 115.0500 mm): Pad 1 [3V3] of C5 on F.Cu
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+    @(136.2750 mm, 115.0500 mm): Pad 2 [GND] of C5 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(170.0000 mm, 50.0000 mm): Segment on F.Mask
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(170.0000 mm, 100.0000 mm): Segment on F.Mask
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(100.0000 mm, 100.0000 mm): Segment on F.Mask
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(170.0000 mm, 50.0000 mm): Segment on B.Mask
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(170.0000 mm, 100.0000 mm): Segment on B.Mask
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(100.0000 mm, 100.0000 mm): Segment on B.Mask
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(134.3750 mm, 115.0500 mm): Pad 1 [3V3] of C5 on F.Cu
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(102.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(106.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(106.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(109.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(109.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(113.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(113.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(116.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(120.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(123.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(123.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(127.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(127.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(130.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(130.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(134.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(134.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(137.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(137.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(141.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(141.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(144.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(148.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(148.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(151.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(151.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(155.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(155.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(158.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(162.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(162.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(165.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(165.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(100.8000 mm, 94.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(169.2000 mm, 94.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.2500 mm; actual 0.1912 mm)
+    Rule: board setup constraints; warning
+    @(136.4500 mm, 106.4500 mm): Via [GND] on F.Cu - B.Cu
+    @(136.9250 mm, 106.5750 mm): Via [GND] on F.Cu - B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(135.3250 mm, 113.3700 mm): Reference field of C5
+    @(134.3750 mm, 112.0500 mm): Pad 1 [3V3] of J3 on F.Cu
+
+** Found 66 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+    @(105.1250 mm, 120.3650 mm): Pad 1 [Net-(J1-In)] of J1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 94.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(106.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(109.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(102.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(113.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(106.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(116.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(109.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(120.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(113.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(120.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(123.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(123.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(127.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(127.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(130.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(134.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(127.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(130.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(134.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(141.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(141.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(134.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(144.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(148.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(141.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(151.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(144.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(155.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(148.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(158.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(151.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(162.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(155.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(165.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(165.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 94.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(99.3000 mm, 99.4500 mm): Zone [GND] on F.Cu, priority 2
+    @(99.0750 mm, 99.1750 mm): Zone [GND] on B.Cu, priority 3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+    @(169.2000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

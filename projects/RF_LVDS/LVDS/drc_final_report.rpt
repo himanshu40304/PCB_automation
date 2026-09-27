@@ -1,0 +1,330 @@
+** Drc report for LVDS.kicad_pcb **
+** Created on 2026-09-27T11:23:26 **
+** Report includes: Errors **
+
+** Found 12 DRC violations **
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 70.0000 mm
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.3000 mm; actual 0.0000 mm)
+    Rule: board setup constraints edge; error
+    @(100.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 50.0000 mm
+
+** Found 66 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+    @(105.1250 mm, 120.3650 mm): Track [Net-(J1-In)] on F.Cu, length 17.9000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(100.8000 mm, 94.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(100.8000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(102.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(102.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(106.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(109.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(106.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(109.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(116.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(113.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(109.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(113.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(116.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(120.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(120.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(116.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(120.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(127.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(123.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(120.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(123.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(127.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(130.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(127.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(130.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(134.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(130.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(137.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(137.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(134.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(137.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(144.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(137.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(141.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(148.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(144.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(148.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(151.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(148.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(155.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(151.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(155.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(155.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(162.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(158.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(165.5000 mm, 50.8000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.0000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(165.5000 mm, 99.2000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(170.0000 mm, 50.0000 mm): Track [Net-(J1-In)] on F.Cu, length 50.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 52.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 56.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 59.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 63.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 66.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 70.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 73.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 77.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 80.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 84.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 87.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(169.2000 mm, 91.0000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+    @(169.2000 mm, 94.5000 mm): Via [Net-(J1-In)] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on F.Cu, length 70.0000 mm
+    @(170.0000 mm, 100.0000 mm): Track [Net-(J1-In)] on B.Cu, length 70.0000 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

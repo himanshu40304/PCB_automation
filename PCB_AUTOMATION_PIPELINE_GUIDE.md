@@ -26,7 +26,7 @@ Catching a fundamental circuit flaw on a fabricated PCB takes 1–3 weeks for a 
 
 ---
 
-## 3. Architecture of the 3-MCP Server Pipeline
+## 3. Architecture of the 4-MCP Server Pipeline
 
 ```mermaid
 graph TD
@@ -36,14 +36,17 @@ graph TD
         Agent <--> S1["kicad (Generation & Layout)<br/>- Node.js + KiCad 10 SWIG API<br/>- Board, footprint, trace & Gerber generation"]
         Agent <--> S2["kicad-validate (Validation & Auditing)<br/>- Python KiCad Parser<br/>- DRC, ERC, symbol & footprint inspection"]
         Agent <--> S3["kicad-spice / SPICEBridge (Simulation)<br/>- Python + ngspice<br/>- AC sweep, transient, DC op analysis"]
+        Agent <--> S4["openems-sim / antenna-cad (3D EM & RF Solver)<br/>- Python + OpenEMS (Docker FDTD)<br/>- S-parameters, antenna & high-speed full-wave EM"]
     end
     
     subgraph Native KiCad GUI & External Tools
         S1 <--> KiCad[KiCad 10 Schematic & PCB Editor]
         S2 <--> KiCad
         S3 <--> Ngspice[ngspice binary]
+        S4 <--> OpenEMS[Docker: antenna-cad-openems]
         User <--> KiCad
         User <--> Saturn[Saturn PCB Toolkit]
+        User <--> ParaView[ParaView 6: 3D EM Field Viewer]
     end
 ```
 
@@ -57,6 +60,9 @@ graph TD
 3. **`kicad-spice` (SPICEBridge Simulation Server):**
    - **Engine:** Python wrapping native `ngspice`.
    - **Tasks:** Runs AC frequency response, DC operating points, transient load steps, parameter sweeps, and extracts -3 dB cutoff, gain, and phase margins.
+4. **`openems-sim` (antenna-cad OpenEMS Server):**
+   - **Engine:** Python + Dockerized OpenEMS FDTD solver (`antenna-cad-openems`).
+   - **Tasks:** 3D full-wave electromagnetic simulation, S-parameter extraction (Return loss $S_{11}$, Insertion loss $S_{21}$), antenna synthesis, and RF layout verification.
 
 ---
 
