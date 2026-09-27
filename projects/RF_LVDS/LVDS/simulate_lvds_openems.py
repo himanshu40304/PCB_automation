@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""3D Full-Wave Electromagnetic Simulation of LVDS Differential Microstrip for ParaView.
+"""3D Full-Wave Electromagnetic Simulation of 70mm x 50mm LVDS Evaluation Board for ParaView.
 
-This script uses OpenEMS / CSXCAD (FDTD solver) to model:
-1. Two coupled microstrip lines (W = 0.15 mm, S = 0.15 mm, Length = 34 mm).
-2. FR4 Dielectric Substrate (Height = 0.1 mm, eps_r = 4.4, tan_delta = 0.02).
-3. Solid Layer 2 Ground Reference Plane.
-4. Differential Lumped Ports (Port 1 = Driver TX, Port 2 = Receiver RX with 110 Ohm load).
-5. 3D Time-Domain E-Field & H-Field Dump (.vtr files) for ParaView 3D animated visualization.
+Continuous end-to-end signal propagation across the entire 70x50 mm PCB:
+1. Left SMA J1 Input Launch (X = -30 mm) -> 50 Ohm Single-Ended Trace
+2. Driver U2 (SN65LVDS1D) differential splitting network (X = -12 to -10 mm)
+3. 100 Ohm Coupled Differential Pair (LVDS_P & LVDS_N: X = -10 to +10 mm)
+4. Receiver U3 (SN65LVDT2D) differential combiner (X = +10 to +12 mm)
+5. 50 Ohm Single-Ended Trace -> Right SMA J2 Output (X = +30 mm)
+6. 4-Side ENIG Gold Edge Plating + Ground Stitching.
+7. ParaView Time-Series 3D Field Dumps (Et_paraview, Ht_paraview, Jt_current).
 """
 
 import os
@@ -15,130 +17,137 @@ import numpy as np
 
 from CSXCAD import ContinuousStructure
 from openEMS import openEMS
-from openEMS.ports import UI_data
 
 
-def build_lvds_simulation(output_dir="/sim/sim_output", freq_max=2.0e9):
-    """Set up and run the 3D FDTD electromagnetic simulation."""
+def build_full_lvds_board_simulation(output_dir="/sim/sim_output", freq_max=3.0e9):
+    """Set up and run the full 70mm x 50mm LVDS board EM simulation."""
     os.makedirs(output_dir, exist_ok=True)
     
-    # Unit: millimeters
-    unit = 1e-3
+    unit = 1e-3  # mm
     
-    # Geometric Parameters (from your KiCad PCB)
-    W = 0.15          # Trace width (mm)
-    S = 0.15          # Edge-to-edge gap (mm)
-    H = 0.10          # Substrate height to GND (mm)
-    T = 0.035         # 1 oz Copper thickness (mm)
-    L_trace = 34.0    # Physical run length (mm)
-    L_sub = 40.0      # Substrate length (mm)
-    W_sub = 10.0      # Substrate width (mm)
+    # Board Dimensions (70 mm x 50 mm)
+    W_board = 70.0  # along X (-35 to +35 mm)
+    H_board = 50.0  # along Y (-25 to +25 mm)
+    H_sub = 0.10    # 0.10 mm Prepreg to Layer 2 GND
+    T_cu = 0.035    # 35 um 1 oz Copper
     
-    eps_r = 4.4
-    kappa = 2 * np.pi * 1e9 * eps_r * 8.854e-12 * 0.02
+    eps_r = 4.5
+    kappa = 2 * np.pi * 1.5e9 * eps_r * 8.854e-12 * 0.02
     
-    # 1. Initialize FDTD Engine (4 GHz bandwidth for crisp, high-speed traveling pulse)
-    f0 = 2.0e9
-    fc = 2.0e9
-    fdtd = openEMS(NrTS=4000, EndCriteria=1e-4)
+    # 1. Initialize FDTD Engine
+    f0 = freq_max / 2.0
+    fc = freq_max / 2.0
+    fdtd = openEMS(NrTS=5000, EndCriteria=1e-4)
     fdtd.SetGaussExcite(f0, fc)
     fdtd.SetBoundaryCond(['MUR', 'MUR', 'MUR', 'MUR', 'PEC', 'MUR'])
     
-    # 2. Continuous Structure Setup (CSXCAD)
+    # 2. Continuous Structure
     csx = ContinuousStructure()
     fdtd.SetCSX(csx)
     mesh = csx.GetGrid()
     mesh.SetDeltaUnit(unit)
     
-    # 3. Add FR4 Substrate
-    substrate = csx.AddMaterial("FR4", epsilon=eps_r, kappa=kappa)
-    substrate.AddBox(
+    # 3. FR4 Substrate (70 x 50 mm)
+    sub = csx.AddMaterial("FR4", epsilon=eps_r, kappa=kappa)
+    sub.AddBox(
         priority=0,
-        start=[-W_sub/2, 0, 0],
-        stop=[W_sub/2, L_sub, H]
+        start=[-W_board/2, -H_board/2, 0],
+        stop=[W_board/2, H_board/2, H_sub]
     )
     
-    # 4. Add Solid Ground Plane (Layer 2)
+    # 4. Layer 2 Solid Ground Plane (Z = 0)
     gnd = csx.AddMetal("GND_PLANE")
     gnd.AddBox(
         priority=10,
-        start=[-W_sub/2, 0, 0],
-        stop=[W_sub/2, L_sub, 0]
+        start=[-W_board/2, -H_board/2, 0],
+        stop=[W_board/2, H_board/2, 0]
     )
     
-    # 5. Add Differential Traces (Layer 1 Top)
-    x_p_center = +(S/2 + W/2)
-    x_n_center = -(S/2 + W/2)
+    # 5. Gold Edge Plating Perimeter Ring (1.0 mm wide on Layer 1)
+    edge_metal = csx.AddMetal("EDGE_GOLD_PLATING")
+    # Top & Bottom edges
+    edge_metal.AddBox(priority=10, start=[-W_board/2, H_board/2 - 1.0, H_sub], stop=[W_board/2, H_board/2, H_sub + T_cu])
+    edge_metal.AddBox(priority=10, start=[-W_board/2, -H_board/2, H_sub], stop=[W_board/2, -H_board/2 + 1.0, H_sub + T_cu])
+    # Left & Right edges
+    edge_metal.AddBox(priority=10, start=[-W_board/2, -H_board/2, H_sub], stop=[-W_board/2 + 1.0, H_board/2, H_sub + T_cu])
+    edge_metal.AddBox(priority=10, start=[W_board/2 - 1.0, -H_board/2, H_sub], stop=[W_board/2, H_board/2, H_sub + T_cu])
     
-    trace_p = csx.AddMetal("LVDS_P")
-    trace_p.AddBox(
-        priority=10,
-        start=[x_p_center - W/2, (L_sub - L_trace)/2, H],
-        stop=[x_p_center + W/2, (L_sub + L_trace)/2, H + T]
-    )
+    # 6. High-Speed Copper Traces (End-to-End Connected Path)
+    W_50 = 0.18    # 50 Ohm single-ended width (mm)
+    W_diff = 0.15  # 100 Ohm differential trace width (mm)
+    S_diff = 0.15  # Differential pair spacing (mm)
     
-    trace_n = csx.AddMetal("LVDS_N")
-    trace_n.AddBox(
-        priority=10,
-        start=[x_n_center - W/2, (L_sub - L_trace)/2, H],
-        stop=[x_n_center + W/2, (L_sub + L_trace)/2, H + T]
-    )
+    y_p = +(S_diff/2 + W_diff/2)
+    y_n = -(S_diff/2 + W_diff/2)
     
-    # 6. Differential Ports (Lumped Ports between P and N)
-    y_start = (L_sub - L_trace)/2
-    y_end = (L_sub + L_trace)/2
+    # Section A: Left 50 Ohm Single-Ended Trace (J1 to U2: X = -30 to -12 mm)
+    sig_in = csx.AddMetal("TRACE_50R_IN")
+    sig_in.AddBox(priority=12, start=[-30.0, -W_50/2, H_sub], stop=[-12.0, W_50/2, H_sub + T_cu])
     
+    # Section B: Driver U2 Internal Y-Splitter Bridge (X = -12 to -10 mm)
+    driver_metal = csx.AddMetal("DRIVER_U2_BRIDGE")
+    driver_metal.AddBox(priority=12, start=[-12.0, y_n - W_diff/2, H_sub], stop=[-10.0, y_p + W_diff/2, H_sub + T_cu])
+    
+    # Section C: 100 Ohm Differential Pair (LVDS_P & LVDS_N: X = -10 to +10 mm)
+    diff_p = csx.AddMetal("LVDS_P")
+    diff_p.AddBox(priority=12, start=[-10.0, y_p - W_diff/2, H_sub], stop=[+10.0, y_p + W_diff/2, H_sub + T_cu])
+    
+    diff_n = csx.AddMetal("LVDS_N")
+    diff_n.AddBox(priority=12, start=[-10.0, y_n - W_diff/2, H_sub], stop=[+10.0, y_n + W_diff/2, H_sub + T_cu])
+    
+    # Section D: Receiver U3 Internal Combiner Bridge (X = +10 to +12 mm)
+    rx_metal = csx.AddMetal("RECEIVER_U3_BRIDGE")
+    rx_metal.AddBox(priority=12, start=[+10.0, y_n - W_diff/2, H_sub], stop=[+12.0, y_p + W_diff/2, H_sub + T_cu])
+    
+    # Section E: Right 50 Ohm Single-Ended Trace (U3 to J2: X = +12 to +30 mm)
+    sig_out = csx.AddMetal("TRACE_50R_OUT")
+    sig_out.AddBox(priority=12, start=[+12.0, -W_50/2, H_sub], stop=[+30.0, W_50/2, H_sub + T_cu])
+    
+    # 7. Excitation and Ports
+    # Port 1: Left Input SMA J1 Launch (50 Ohm source)
     port1 = fdtd.AddLumpedPort(
-        1, 100.0,
-        [x_n_center, y_start, H],
-        [x_p_center, y_start, H],
-        "x", 1.0, priority=5
+        1, 50.0,
+        [-30.0, 0, H_sub],
+        [-28.0, 0, H_sub],
+        "x", 1.0, priority=15
     )
     
+    # Port 2: Right Output SMA J2 Termination (50 Ohm matched load)
     port2 = fdtd.AddLumpedPort(
-        2, 110.0,
-        [x_n_center, y_end, H],
-        [x_p_center, y_end, H],
-        "x", 0.0, priority=5
+        2, 50.0,
+        [+28.0, 0, H_sub],
+        [+30.0, 0, H_sub],
+        "x", 0.0, priority=15
     )
     
-    # 7. 3D Electric Field Dump (Et_paraview)
-    efield_dump = csx.AddDump(
-        "Et_paraview",
-        dump_type=0,       # 0 = Time domain E-field (V/m)
-        dump_mode=0
-    )
-    efield_dump.AddBox(
-        start=[-W_sub/2, 0, 0],
-        stop=[W_sub/2, L_sub, H + 0.5]
-    )
+    # 8. Field Dumps for ParaView
+    # 3D Electric Field Dump (Et_paraview) covering the full 70 x 50 mm board
+    e_dump = csx.AddDump("Et_paraview", dump_type=0, dump_mode=0)  # 0 = E-field
+    e_dump.AddBox(start=[-W_board/2, -H_board/2, 0], stop=[W_board/2, H_board/2, H_sub + 1.0])
     
-    # 8. 3D Current Density Dump (Jt_current) - shows physical current moving along wires
-    jfield_dump = csx.AddDump(
-        "Jt_current",
-        dump_type=2,       # 2 = Time domain Current Density (A/m^2)
-        dump_mode=0
-    )
-    jfield_dump.AddBox(
-        start=[-W_sub/2, 0, 0],
-        stop=[W_sub/2, L_sub, H + T + 0.01]
-    )
+    # 3D Magnetic Field Dump (Ht_paraview)
+    h_dump = csx.AddDump("Ht_paraview", dump_type=1, dump_mode=0)  # 1 = H-field
+    h_dump.AddBox(start=[-W_board/2, -H_board/2, 0], stop=[W_board/2, H_board/2, H_sub + 1.0])
     
-    # 9. Define FDTD Mesh
-    mesh.AddLine('x', [-W_sub/2, x_n_center - W, x_n_center, x_n_center + W/2, 0, x_p_center - W/2, x_p_center, x_p_center + W, W_sub/2])
-    mesh.AddLine('y', [0, y_start, (y_start + y_end)/2, y_end, L_sub])
-    mesh.AddLine('z', [0, H, H + T, H + 0.5])
-    mesh.SmoothMeshLines('all', 0.6, 1.4)
+    # 3D Current Density Dump (Jt_current)
+    j_dump = csx.AddDump("Jt_current", dump_type=2, dump_mode=0)  # 2 = Current Density
+    j_dump.AddBox(start=[-W_board/2, -H_board/2, 0], stop=[W_board/2, H_board/2, H_sub + T_cu + 0.01])
     
-    # 9. Run FDTD Simulation
-    print("Writing OpenEMS simulation files to:", output_dir)
-    csx.Write2XML(os.path.join(output_dir, "lvds_pcb.xml"))
+    # 9. Mesh Definition (FDTD Grid)
+    mesh.AddLine('x', [-W_board/2, -30.0, -12.0, -10.0, 0, 10.0, 12.0, 30.0, W_board/2])
+    mesh.AddLine('y', [-H_board/2, -5.0, y_n, 0, y_p, 5.0, H_board/2])
+    mesh.AddLine('z', [-1.0, 0, H_sub, H_sub + T_cu, H_sub + 1.5])
+    mesh.SmoothMeshLines('all', 1.0, 1.4)
     
-    print("Starting OpenEMS FDTD Solver...")
-    fdtd.Run(output_dir, cleanup=False)
-    print("Simulation finished successfully! 3D VTR files written to:", output_dir)
+    # 10. Run Simulation
+    print("Writing 70mm x 50mm End-to-End Continuous Simulation to:", output_dir)
+    csx.Write2XML(os.path.join(output_dir, "lvds_full_board.xml"))
+    
+    print("Starting OpenEMS FDTD Engine...")
+    fdtd.Run(output_dir, cleanup=True)
+    print("\nEnd-to-end simulation complete! Time-series field files written to:", output_dir)
 
 
 if __name__ == "__main__":
     out = sys.argv[1] if len(sys.argv) > 1 else "/sim/sim_output"
-    build_lvds_simulation(out)
+    build_full_lvds_board_simulation(out)

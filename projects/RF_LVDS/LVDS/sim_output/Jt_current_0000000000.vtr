@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <VTKFile type="RectilinearGrid" version="0.1" byte_order="LittleEndian" header_type="UInt32" compressor="vtkZLibDataCompressor">
-  <RectilinearGrid WholeExtent="0 26 0 72 0 3">
-  <Piece Extent="0 26 0 72 0 3">
+  <RectilinearGrid WholeExtent="0 70 0 58 0 3">
+  <Piece Extent="0 70 0 58 0 3">
     <PointData>
       <DataArray type="Float32" Name="J-Field" NumberOfComponents="3" format="binary" RangeMin="0" RangeMax="0">
-        AwAAAACAAACQcQAANAAAADQAAAAzAAAAeJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYgAAAAXic7cEBAQAAAICQ/q/uCAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGIAAAAF4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+DHGQAAE=
+        BwAAAACAAABwEQAANAAAADQAAAA0AAAANAAAADQAAAA0AAAAGwAAAA==eJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYgAAAAXic7cEBAQAAAICQ/q/uCAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGIAAAAF4nO3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiAAAABeJztwQEBAAAAgJD+r+4ICgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYgAAAAXic7cEBAQAAAICQ/q/uCAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGIAAAAF4nO3BAQEAAACAkP6v7ggKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABiAAAABeJztwTEBAAAAwqD1T20JT6AAAAAAeBoRcAAB
         <InformationKey name="L2_NORM_RANGE" location="vtkDataArray" length="2">
           <Value index="0">
             0
@@ -18,14 +18,14 @@
     <CellData>
     </CellData>
     <Coordinates>
-      <DataArray type="Float64" Name="Array 0x1e28a7b0" format="binary" RangeMin="-0.005" RangeMax="0.005">
-        AQAAAACAAADYAAAAlgAAAA==eJyrFlnn/rCqZP+ijl1L7aWK9k/62ctuU5y//97DZYd/bMzar31qf/3WD6n7KzfdsC7ST9zfY/r4feydiP172X1KwpcH7r8+q/SqapLH/k8S4npHpRz2JxqFGmitNIbSylBaeD8DFED59lB5KG1sD9VvDzXPHmq+PdQ+e6j99lD32EPdZw91rz3U/fbVEP/YAwBOrmBR
+      <DataArray type="Float64" Name="Array 0x1d1eb4e0" format="binary" RangeMin="-0.035" RangeMax="0.035">
+        AQAAAACAAAA4AgAAOgEAAA==eJx7E7hDrvX1wv1zjihsKMpYuN/HvNMx4emC/X9Wfrzkm7Rgf4TllhNl++bvB6kK3DFvvyRLGJ/uprn7K1+qGXKsmbP/5rnvwY+Xzt5vBVY2a/+smWCw/1dd1p6SyTP2R6VY3/fvnb5/lycPk3b7tP3S+ndV2Bqn7q8WWef+sGrK/ts/wQr324BU5U2CumMi1P4JUHv7oPb1QO3pgprfATW3DWpeC9ScJqj+Bqi+Gqj6Cqi6Eqh8AVQ8A8pPgNIB+xmgAMq3h8rbQ9VD+QX2UPOg4hX2UPug8g32UPdA1bXYQ90LVd9hD/UPVF+PPdS/UP0T7KHhATVnkj00vKDmTbGHhifU3Gn20PCGmj/DHhofUHtm2UPjC2rfHHtofELtnWcPjW+o/QvsoekB6o6F9m8g6cUeAPQ6KAY=
       </DataArray>
-      <DataArray type="Float64" Name="Array 0x1e28acc0" format="binary" RangeMin="0" RangeMax="0.04">
-        AQAAAACAAABIAgAAUwIAAA==eJwBSAK3/QAAAAAAAAAAYTJVMCqpQz9hMlUwKqlTP5LLf0i/fV0/FYxK6gQ0YT9hMlUwKqljP6Fns+pztWU/+n5qvHSTaD8vga9NHEZsP38z+0HJjnA/Z6YeXYT6cj9PGUJ4P2Z1PzeMZZP60Xc/H/+IrrU9ej8GcqzJcKl8P+7kz+QrFX8/66v5f3PAgD9eZYsNUfaBP9IeHZsuLIM/RtiuKAxihD+5kUC26ZeFPy1L0kPHzYY/oQRk0aQDiD8UvvVegjmJP4h3h+xfb4o//DAZej2liz9w6qoHG9uMP+KjPJX4EI4/Vl3OItZGjz9lCzDYWT6QPx/o+J5I2ZA/2cTBZTd0kT+ToYosJg+SP01+U/MUqpI/BlscugNFkz/BN+WA8t+TP3sUrkfhepQ/NfF2DtAVlT/wzT/VvrCVP6mqCJytS5Y/Y4fRYpzmlj8dZJopi4GXP9dAY/B5HJg/kh0st2i3mD9L+vR9V1KZPwTXvURG7Zk/v7OGCzWImj94kE/SIyObPzFtGJkSvps/7EnhXwFZnD+mJqom8POcP18Dc+3ejp0/GeA7tM0pnj/TvAR7vMSeP42ZzUGrX58/R3aWCJr6nz+Aqa9nxEqgP90XFMs7mKA/OoZ4LrPloD+Y9NyRKjOhP/RiQfWhgKE/UdGlWBnOoT+uPwq8kBuiPwuubh8IaaI/aRzTgn+2oj+LbOf7qfGiPwHeAgmKH6M/VcGopE5Aoz+5awn5oGejPx8Wak3zjqM/6Gor9pfdoz+xv+yePCykP3sUrkfheqQ/lGINMw==
+      <DataArray type="Float64" Name="Array 0x1d1ebc80" format="binary" RangeMin="-0.025" RangeMax="0.025">
+        AQAAAACAAADYAQAAKQEAAA==eJybNRMM9v+qy9pTMnnG/qgU6/v+vdP37/LkYdJun7ZfWv+uClvj1P3VIuvcH1ZN2X/7J1jhfhuQqrxJ++ccUdhQlDFx/5+VHy/5Jk3Yv0Ou9XXgjr79lS/VDDnW9Oy32nKibN/8Lqj5HVBz26DmtUDNaYLqb4Dqq4Gqr4CqK9mfpHPAbMGcgv3TOpZ476vJ3J++44SmzYHE/YnvpRwNLSP2c+lvnT6NIWD/HmHb8j8sLvs1+UozWCea7U80CjXQWqm8nwEKoHx7qLw9VL09VL891Dx7qPn2UPvsofbbQ91jD3WfPdS99lD320P9A1XXYg/1L1R9hz00PKD6euyh4QXVP8EeGp5QcybZQ8Mbat4Ue2h8QM2dZg+NL6j5M+xnQeLTHgAs099P
       </DataArray>
-      <DataArray type="Float64" Name="Array 0x1e28b2b0" format="binary" RangeMin="0" RangeMax="0.0006">
-        AQAAAACAAAAgAAAAJAAAAA==eJxjYIAAXWeZ14/MpOy7H9Rr39yoaJ9oFGqgtdLZHgB6rglV
+      <DataArray type="Float64" Name="Array 0x1d1ec070" format="binary" RangeMin="0" RangeMax="0.00017759373902157284">
+        AQAAAACAAAAgAAAAJAAAAA==eJxjYIAAXWeZ14/MpOy7H9Rr39yoaJ8vozaLz13dHgB5rgju
       </DataArray>
     </Coordinates>
   </Piece>
