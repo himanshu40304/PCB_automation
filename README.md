@@ -114,8 +114,7 @@ graph LR
 * **Description:** A 4-Layer High-Speed LVDS Evaluation Board featuring **TI SN65LVDS1D (Driver)** and **SN65LVDT2D (Receiver with internal 110 Ω termination)**.
 * **Key Features:**
   * **Controlled Impedance Interconnects:** $100\ \Omega$ edge-coupled microstrip ($W = 0.15\text{ mm}, S = 0.15\text{ mm}$) over $0.1\text{ mm}$ prepreg, with $50\ \Omega$ single-ended RF SMA launches.
-  * **Ground Integrity & Via Stitching:** 5.0 mm uniform ground stitching grid across the board interior.
-  * **EMC & Perimeter Shielding:** 4-side continuous ENIG Gold Edge Plating + 3.5 mm perimeter via fence forming a complete Faraday cage.
+  * **Ground Integrity & Via Stitching:** 5.0 mm uniform ground stitching grid across the board interior with a perimeter via fence for low-inductance return loops.
   * **3D Full-Wave EM Co-Simulation:** Full FDTD wave propagation ($E$-field, $H$-field, and $J$-current density) animated in ParaView.
   * **Manufacturing:** Complete Gerber RS-274X, NC Drill, and 3D STEP models with 0 DRC violations and 0 unconnected pads.
 

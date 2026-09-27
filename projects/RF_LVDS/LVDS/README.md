@@ -5,7 +5,7 @@
 [![ParaView](https://img.shields.io/badge/3D_Visualizer-ParaView_6.1-green.svg)](https://www.paraview.org/)
 [![Status](https://img.shields.io/badge/DRC-Passed_0_Unconnected-brightgreen.svg)]()
 
-A high-speed 4-layer Low-Voltage Differential Signaling (LVDS) evaluation board featuring the **Texas Instruments SN65LVDS1D (Driver)** and **SN65LVDT2D (Receiver with integrated 110 Ω termination)** capable of $\ge 400\text{ Mbps}$ data transmission with co-planar controlled-impedance interconnects, full-coverage ground stitching, 4-side ENIG gold edge plating, and 3D full-wave OpenEMS/ParaView simulation.
+A high-speed 4-layer Low-Voltage Differential Signaling (LVDS) evaluation board featuring the **Texas Instruments SN65LVDS1D (Driver)** and **SN65LVDT2D (Receiver with integrated 110 Ω termination)** capable of $\ge 400\text{ Mbps}$ data transmission with co-planar controlled-impedance interconnects, full-coverage ground stitching, and 3D full-wave OpenEMS/ParaView simulation.
 
 ---
 
@@ -18,9 +18,8 @@ A high-speed 4-layer Low-Voltage Differential Signaling (LVDS) evaluation board 
 | **Layer 1 (Top)** | High-Speed Microstrip + RF SMA Launch | $100\ \Omega$ diff pair ($W=0.15\text{ mm}, S=0.15\text{ mm}$), $50\ \Omega$ single-ended ($W=0.18\text{ mm}$) |
 | **Layer 2 (Inner 1)** | Solid Unbroken GND Ground Plane | Continuous reference plane directly under high-speed traces |
 | **Layer 3 (Inner 2)** | 3.3V Power Plane (PDN) | Low-impedance power distribution with 100 nF + 1 nF decoupling |
-| **Layer 4 (Bottom)** | Solid GND Shield Plane | Ground return with perimeter via fence |
-| **Edge Finish** | 4-Side ENIG Gold Edge Plating | Continuous perimeter Faraday cage + EMI radiation suppression |
-| **Via Stitching** | 5.0 mm Interior Grid + 3.5 mm Perimeter Fence | 0.6 mm pad diameter, 0.3 mm drill hole |
+| **Layer 4 (Bottom)** | Solid GND Shield Plane | Ground return reference plane |
+| **Via Stitching** | 5.0 mm Interior Grid + 3.5 mm Perimeter Fence | 0.6 mm pad diameter, 0.3 mm drill hole for low-inductance return paths |
 
 ---
 
@@ -61,8 +60,8 @@ graph LR
      - **Radial Launch Pattern**: Coaxial TEM-to-microstrip transition at the SMA connector launch.
      - **Differential Coupling**: Strong transverse field confinement tightly bounded between the positive and negative differential microstrips.
      - **Zero Stray Coupling**: Near-zero field leakage into surrounding ground fill.
-3. **4-Side Gold Edge Plating & Perimeter Shielding**:
-   - Full 1.0 mm copper wrap with solder mask openings on all 4 board boundaries, backed by a 3.5 mm via stitching fence, forming a complete edge Faraday cage.
+3. **Ground Plane Integrity & Perimeter Via Shielding**:
+   - High-density ground via stitching matrix (5.0 mm grid) connecting Top, Inner 1, and Bottom ground planes, backed by a perimeter via fence to suppress edge radiation and maintain low-inductance ground return loops.
 
 ---
 
@@ -73,7 +72,7 @@ graph LR
 | **Impedance Discontinuities** | Visualizes localized wave reflections and capacitance bumps at SMA launches and chip pad transitions before tape-out. |
 | **Differential Symmetry & Skew** | Verifies equal phase velocity and tight coupling between `/LVDS_P` and `/LVDS_N`, preventing common-mode noise conversion. |
 | **High-Frequency Return Currents** | Proves that the high-frequency return current stays tightly confined on Layer 2 GND directly beneath the trace path, minimizing loop inductance. |
-| **EMI & Edge Radiation Suppression** | Validates that the 4-side gold edge plating and perimeter stitching fence block fringing electromagnetic waves from radiating off the PCB edges. |
+| **EMI & Edge Radiation Suppression** | Validates that the solid ground reference planes and perimeter stitching fence prevent fringing electromagnetic waves from radiating off the PCB edges. |
 | **Pre-Fabrication Signoff** | Eliminates costly PCB prototype respins by diagnosing signal integrity (SI) and electromagnetic compatibility (EMC) bottlenecks in software. |
 
 ---
@@ -83,4 +82,5 @@ graph LR
 - **Excellon NC Drill:** `gerber/LVDS.drl`
 - **3D Mechanical STEP Model:** `LVDS.step`
 - **DRC & ERC Status:** **Passed (0 DRC Violations, 0 Unconnected Items)**.
+
 
