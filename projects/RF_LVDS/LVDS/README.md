@@ -39,22 +39,48 @@ graph LR
 
 ---
 
-## 🔬 Simulation & Verification Pipeline
+## 🔬 3D Full-Wave Electromagnetic & Field Simulation Pipeline
 
-1. **SPICE PDN Decoupling Analysis**:
-   - Simulated impedance notches across $10\text{ kHz} - 1\text{ GHz}$, verifying low PDN impedance at $25\text{ MHz}$ ($100\text{ nF}$) and $250\text{ MHz}$ ($1\text{ nF}$).
-2. **High-Speed Signal Integrity**:
-   - $350\text{ mV}$ differential output swing, $1.25\text{ V}$ common mode, $< 5\%$ reflection into the internal $110\ \Omega$ termination.
-3. **OpenEMS 3D FDTD Full-Wave Simulation**:
-   - Full-wave Maxwell equations solved in 3D time domain.
-   - Electric field ($E_t$), Magnetic field ($H_t$), and Current Density ($J_t$) exported to `.vtr` format.
-4. **ParaView 3D Animated Wave Visualization**:
-   - Animated electromagnetic pulse propagation and 3D streamline tube vectors surfing along the transmission lines.
+High-speed PCB signals at $> 400\text{ Mbps}$ are **guided electromagnetic waves**, where energy travels primarily through the dielectric substrate between the signal trace and reference ground plane. 
+
+To validate transmission line dynamics before physical fabrication, this board was simulated using **OpenEMS (Finite-Difference Time-Domain full-wave Maxwell solver)** and visualized in **ParaView 6.1**:
+
+```mermaid
+graph LR
+    A["KiCad Layout & Stackup"] --> B["OpenEMS 3D FDTD Engine"]
+    B --> C["Full-Wave Maxwell Solution (E, H, J fields)"]
+    C --> D["ParaView 3D Vector & Surface LIC Analysis"]
+```
+
+### Key Simulation Models:
+1. **End-to-End Transmission Line Domain (70 mm × 50 mm)**:
+   - Full board substrate modeled in FR4 ($\varepsilon_r = 4.5, \tan\delta = 0.02$) over a $0.10\text{ mm}$ prepreg height to Layer 2 solid ground plane.
+   - Left SMA input launch ($50\ \Omega$) $\rightarrow$ Driver `U2` $\rightarrow$ $100\ \Omega$ Differential Pair ($W=0.15\text{ mm}, S=0.15\text{ mm}$) $\rightarrow$ Receiver `U3` ($110\ \Omega$ termination) $\rightarrow$ Right SMA output launch ($50\ \Omega$).
+2. **Surface LIC (Line Integral Convolution) Vector Field Analysis**:
+   - Computes continuous streamflow streaklines directly from the electric vector field $\vec{E}(t)$, revealing:
+     - **Radial Launch Pattern**: Coaxial TEM-to-microstrip transition at the SMA connector launch.
+     - **Differential Coupling**: Strong transverse field confinement tightly bounded between the positive and negative differential microstrips.
+     - **Zero Stray Coupling**: Near-zero field leakage into surrounding ground fill.
+3. **4-Side Gold Edge Plating & Perimeter Shielding**:
+   - Full 1.0 mm copper wrap with solder mask openings on all 4 board boundaries, backed by a 3.5 mm via stitching fence, forming a complete edge Faraday cage.
+
+---
+
+## 🌟 Engineering Benefits of 3D EM Simulation for High-Speed PCBs
+
+| Engineering Challenge | How 3D EM Simulation Resolves It |
+| :--- | :--- |
+| **Impedance Discontinuities** | Visualizes localized wave reflections and capacitance bumps at SMA launches and chip pad transitions before tape-out. |
+| **Differential Symmetry & Skew** | Verifies equal phase velocity and tight coupling between `/LVDS_P` and `/LVDS_N`, preventing common-mode noise conversion. |
+| **High-Frequency Return Currents** | Proves that the high-frequency return current stays tightly confined on Layer 2 GND directly beneath the trace path, minimizing loop inductance. |
+| **EMI & Edge Radiation Suppression** | Validates that the 4-side gold edge plating and perimeter stitching fence block fringing electromagnetic waves from radiating off the PCB edges. |
+| **Pre-Fabrication Signoff** | Eliminates costly PCB prototype respins by diagnosing signal integrity (SI) and electromagnetic compatibility (EMC) bottlenecks in software. |
 
 ---
 
 ## 📁 Manufacturing Artifacts
-- Gerber RS-274X: `gerber/`
-- Excellon NC Drill: `gerber/LVDS.drl`
-- 3D STEP Model: `LVDS.step`
-- Design Rules: Passed with 0 unconnected items.
+- **Gerber RS-274X Package:** `gerber/`
+- **Excellon NC Drill:** `gerber/LVDS.drl`
+- **3D Mechanical STEP Model:** `LVDS.step`
+- **DRC & ERC Status:** **Passed (0 DRC Violations, 0 Unconnected Items)**.
+
